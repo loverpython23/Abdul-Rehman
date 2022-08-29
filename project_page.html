@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Project Page Abdul Rehman</title>
+  <link rel="icon" type="image/x-icon" href="img/my_pic.png">
+  <link rel="stylesheet" href="project_page.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="port.js"></script>
+  <script>/* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    burger = document.querySelector('.burger')
+    navbar = document.querySelector('.navbar')
+    navList = document.querySelector('.nav-list')
+    burger.addEventListener('click', () => {
+      navList.classList.toggle('v-class-resp')
+      navbar.classList.toggle('h-nav-resp')
+    })</script>
+  <!-- whatsapp -->
+  <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+  <script>
+    var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"Message","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"923163427315","welcomeMessage":"Hi there! \nHow can I help you?","zIndex":999999,"btnColorScheme":"light"};
+    window.onload = () => {
+      _waEmbed(wa_btnSetting);
+    };
+  </script>
+</head>
+
+<body>
+  <nav class="navbar bg h-nav-resp">
+    <ul class="nav-list v-class-resp">
+      <div class="logo"><a href="index.html"><img src="img/my_pic.png" alt=""></a></div>
+      <li><a class="border" href="index.html" target="_blank">Home</a></li>
+      <li><a class="border" href="index.html#about" target="_blank">About</a></li>
+      <li><a class="border" href="index.html#about" target="_blank">Skill</a></li>
+      <li>
+        <div class="dropdown ">
+          <button onclick="myFunction()" class="dropbtn border">Projects</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a class="scroll_text" href="#">Project Page</a>
+            <a class="scroll_text" href="#">Supervised</a>
+            <a class="scroll_text" href="#">Unsupervised</a>
+            <a class="scroll_text" href="#">Computer vision</a>
+            <a class="scroll_text" href="#">NLP</a>
+          </div>
+        </div>
+      </li>
+      <li><a class="border" href="index.html#contactme" target="_blank">Contact us</a></li>
+      <li><a href="https://www.linkedin.com/in/abdul-rehman-b85a00215/" target="_blank"><img class="linkedin image"
+            src="img/linkedin.png" alt=""></a></li>
+      <li><a href="https://github.com/abdulrehmanmemon" target="_blank"><img class="github image" src="img/github.png"
+            alt=""></a></li>
+    </ul>
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+  <section class="bg firstSection">
+    <div class="box-main">
+      <center>
+        <div class="firstHalf">
+          <p class="text-big">Project Page</p>
+          <p class="text-small">Find What can I Do</p>
+          <div class="buttons">
+            <a href="#fiverr" target="_blank">
+              <button class="btn b">
+                Place An Order
+              </button>
+            </a>
+          </div>
+        </div>
+      </center>
+    </div>
+  </section>
+  <div class="nine">
+    <h1>Work To Show<span>I am a greater believer in luck, and I find the harder I work the more I have of it.</span>
+    </h1>
+    <p class="span2">I am a greater believer in luck, and I find the harder I work the more I have of it.</p>
+  </div>
+  <!-- Skill distribute -->
+  <section id="skill">
+    <div class='skill'>
+      <div class="sbox SML">
+        <p class="heading sectiontag">Supervised Machine Learning</p>
+        <p class="sectionsubtag">I have shared only two projects for Supervised Machine Learning one related to
+          Classification and other related to Regression.
+        <div class="sbutton">
+          <center>
+            <div class="buttons">
+              <a href="#Classification" target="_blank">
+                <button class="sbtn">
+                  Classification
+                </button>
+              </a>
+            </div>
+          </center>
+          <center>
+            <div class="buttons reg">
+              <a href="#Regression" target="_blank">
+                <button class="sbtn">
+                  Regression
+                </button>
+              </a>
+            </div>
+          </center>
+        </div>
+      </div>
+      <div class="sbox USML">
+        <p class="heading sectiontag">Unsupervised Machine Learning</p>
+        <p class="sectionsubtag">I have shared only One projects for Unsupervised Machine Learning.
+          <center>
+            <div class="buttons other_b">
+              <a href="#Clustering" target="_blank">
+                <button class="sbtn">
+                  Clustering
+                </button>
+              </a>
+            </div>
+          </center>
+
+      </div>
+      <div class="NLP sbox">
+        <p class="heading sectiontag">Natural Learning Processing</p>
+        <p class="sectionsubtag">I have shared only One projects for Natural Language Processing.
+          <center>
+            <div class="buttons other_b">
+              <a href="#NLP" target="_blank">
+                <button class="sbtn">
+                  NLP
+                </button>
+              </a>
+            </div>
+          </center>
+      </div>
+      <div class="sbox CV">
+        <p class="heading sectiontag">Computer Vision</p>
+        <p class="sectionsubtag">I have shared only One projects for Computer Vision.
+          <center>
+            <div class="buttons other_b cv">
+              <a href="#NLP" target="_blank">
+                <button class="sbtn">
+                  Computer Vision
+                </button>
+              </a>
+            </div>
+          </center>
+
+      </div>
+    </div>
+  </section>
+  <center>
+    <P class="note"> I have just shared some of my work but if you want more, you can check my github profile</P>
+    <div class="after_form">
+      <a href="https://www.linkedin.com/in/abdul-rehman-b85a00215/" target="_blank"><img
+          class="imagee" src="img/linkedin.png" alt=""></a>
+      <a href="https://github.com/abdulrehmanmemon" target="_blank"><img class="imagee"
+              src="img/github.png" alt=""></a></li>
+      <a href="a.rehmanmemon.034@gmail.com" target="_blank"><img
+          class="imagee" src="img/gmail.png" alt=""></a>
+      <a href="#" target="_blank"><img
+          class="imagee" src="img/fiverr.png" alt=""></a>
+  </div>
+  </center>
+  <footer class="bg">
+    <p class="text-footer">
+        Copyright &copy; 2022 - All rights reserved | Website Designed by Abdul Rehman
+    </p>
+</footer>
+<script src="port.js"></script>
+</body>
+
+</html>
